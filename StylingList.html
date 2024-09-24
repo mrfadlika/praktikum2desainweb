@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style List</title>
+    <style>
+      ul.list1 {
+        list-style-image: url(location.png);
+      }
+      ul.list2 {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      ul.list2 li {
+        background-image: url(location.png);
+        background-repeat: no-repeat;
+        background-position: 0px center;
+        padding-left: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>List European Capitals:</p>
+    <ul class="list1">
+      <li>Paris</li>
+      <li>London</li>
+      <li>Madrid</li>
+    </ul>
+    <p>List Asian Capitals:</p>
+    <ul class="list2">
+      <li>Jakarta</li>
+      <li>Manila</li>
+      <li>Bangkok</li>
+    </ul>
+  </body>
+</html>

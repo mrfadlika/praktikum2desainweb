@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.header{
+    color: white;
+}
+
+#mulyono {
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+.body{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 300%;
+}
